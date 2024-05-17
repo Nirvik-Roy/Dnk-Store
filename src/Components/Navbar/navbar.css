@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav_main{
+    overflow-x: hidden;
+    background-image:linear-gradient(0deg,rgba(255, 252, 252, 0.098), rgba(25, 67, 102, 0.777)),url("../../Images/home-new-bg-free-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100px;
+    
+ 
+    
+}
+.nav_logo{
+   min-width: 40%;
+}
+.nav_logo2{
+   min-width: 30%;
+}

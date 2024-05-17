@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_main1{
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100px;
+}
+.nav_logo{
+   min-width: 40%;
+}
+.nav_logo2{
+   min-width: 30%;
+}
+.nav_img{
+    width: 95%;
+}
+.nav_img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.cart{
+    position: relative;
+}
+.cart_btn{
+    border: none;
+    bottom: 0;
+    right: -60%;
+    position: absolute;
+    color: white;
+    font-size: x-small;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: black;
+}
