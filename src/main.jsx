@@ -8,6 +8,7 @@ import Home from './Components/Home/Home.jsx'
 import { useState } from 'react'
 import {Provider} from "react-redux"
 import store from './Store/Store.jsx'
+import UnderDevelopment from './Components/UnderDevelopment/UnderDevelopment.jsx'
 
 // const router =createBrowserRouter(
 //   [
@@ -30,7 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   
   <Provider store={store}>
 
-   
+   <UnderDevelopment/>
     <App/>
  
    {/* <RouterProvider router={router} ></RouterProvider> */}

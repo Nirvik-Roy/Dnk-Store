@@ -10,6 +10,10 @@
     background-position: center;
     height: 100px;
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 .nav_logo{
    min-width: 40%;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import "./navbar.css"
 import logo from "../../Images/logo1-free-img-140x47 (1).png"
 import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
@@ -10,33 +11,33 @@ const Navbar = () => {
                   <a className='text-light'>
                     <img src={logo} alt='logo'></img>
                   </a>
-                  <a className='text-light'>
+                  <NavLink className='text-light'>
                     EVERYTHING
-                  </a>
-                  <a className='text-light'>
+                  </NavLink>
+                  <NavLink className='text-light'>
                     WOMEN
-                  </a>
-                  <a className='text-light'>
+                  </NavLink>
+                  <NavLink className='text-light'>
                   MEN
-                  </a>
-                  <a className='text-light'>
+                  </NavLink>
+                  <NavLink className='text-light'>
                     ACCESORIES
-                  </a>
+                  </NavLink>
            </div>
            <div className='nav_logo2 d-flex justify-content-evenly align-items-center'>
-                   <a className='text-light'>
+                   <NavLink className='text-light'>
                     ABOUT
-                   </a>
-                   <a className='text-light'>
+                   </NavLink>
+                   <NavLink className='text-light'>
                     CONTACT US
-                   </a>
-                   <a className='text-light'>
+                   </NavLink>
+                   <NavLink className='text-light'>
                    $0.00
                    <i class="fas fa-shopping-bag fa-lg text-light ms-2"></i>
-                   </a>
-                   <a>
+                   </NavLink>
+                   <NavLink>
                    <i class="fas fa-user fa-lg text-light"></i>
-                   </a>
+                   </NavLink>
            </div>
 
         </div>

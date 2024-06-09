@@ -4,6 +4,7 @@ import "./Navbar2.css"
 import SingleProduct from '../SingleProduct/SingleProduct'
 import Description from '../Description/Description'
 import { useSelector } from 'react-redux'
+import { NavLink } from 'react-router-dom'
 const Navbar2 = () => {
   const data=useSelector((state)=>{
     return state.cart
@@ -18,33 +19,33 @@ const Navbar2 = () => {
                   <a className='text-dark nav_img_div'>
                     <img className='nav_img' src={logo} alt='logo'></img>
                   </a>
-                  <a className='text-dark'>
+                  <NavLink className='text-dark'>
                     EVERYTHING
-                  </a>
-                  <a className='text-dark'>
+                  </NavLink>
+                  <NavLink className='text-dark'>
                     WOMEN
-                  </a>
-                  <a className='text-dark'>
+                  </NavLink>
+                  <NavLink className='text-dark'>
                   MEN
-                  </a>
-                  <a className='text-dark'>
+                  </NavLink>
+                  <NavLink className='text-dark'>
                     ACCESORIES
-                  </a>
+                  </NavLink>
            </div>
            <div className='nav_logo2 d-flex justify-content-evenly align-items-center'>
-                   <a className='text-dark'>
+                   <NavLink className='text-dark'>
                     ABOUT
-                   </a>
-                   <a className='text-dark'>
+                   </NavLink>
+                   <NavLink className='text-dark'>
                     CONTACT US
-                   </a>
-                   <a className='text-dark'>
+                   </NavLink>
+                   <NavLink className='text-dark'>
                    $0.00
                    <i class="fas fa-shopping-bag cart fa-lg text-dark ms-2"><button className='cart_btn'>{data.length}</button></i>
-                   </a>
-                   <a>
+                   </NavLink>
+                   <NavLink>
                    <i class="fas fa-user fa-lg text-dark"></i>
-                   </a>
+                   </NavLink>
            </div>
 
         </div>
